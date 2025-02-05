@@ -1,4 +1,4 @@
-import "main.css"
+import "./main.css"
 import Description from "../description/Description";
 import img from "../../images/images/illustration-hero.svg"
 
