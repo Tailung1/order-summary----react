@@ -6,7 +6,7 @@ export default function Main() {
     return (
         <>
         <div className="main-div">
-        <img src={img} alt="hero-img" />
+        <img src={img} alt="hero-img" className="hero-img"/>
         <Description />
         </div>
         </>

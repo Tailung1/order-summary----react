@@ -1,0 +1,80 @@
+.main-div {
+    width: 327px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 24px;
+    margin: 35px 0 32px;
+}
+.hero-img {
+    width: 100%;
+    border-radius:0 10px;
+}
+.annual-div {
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.plan-div {
+    display: flex;
+    gap: 20px;
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.change {
+    color: #382AE1;
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.plan-text {
+    color: #1F2E55;
+    font-size: 14px;
+    font-weight: 900;
+}
+.year-text {
+    color: #717FA6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button {
+    all: unset;
+}
+.payment {
+    border-radius: 11px;
+    background-color: #382AE1;
+    padding: 15px 65px 15px 64px;
+    color: white;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 900;
+}
+.cancel {
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+
+}

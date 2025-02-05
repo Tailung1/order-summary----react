@@ -10,17 +10,17 @@ export default function Description() {
 
             <div className="annual-div">
                 <section className="plan-div">
-                <img src={musicLogo} alt="music-icon" />
+                <img src={musicLogo} alt="music-icon"  />
 
                 <section className="plan">
-                    <span>Annual Plan</span>
-                    <span>$59.99/year</span>
+                    <span className="plan-text">Annual Plan</span>
+                    <span className="year-text">$59.99/year</span>
                 </section>
                 </section>
-                <p>Change</p>
+                <span className="change">Change</span>
             </div>
-            <button>Proceed to Payment</button>
-            <button>Cancel Order</button>
+            <button className="payment">Proceed to Payment</button>
+            <button className="cancel">Cancel Order</button>
         </div>
         </>
     )
